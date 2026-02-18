@@ -48,4 +48,8 @@ wfLoadExtensions( [
 	'cldr',
 ] );
 
+if ( $wi->isBeta() ) {
+	wfLoadExtension( 'MirahezeRequests' );
+}
+
 wfLoadExtension( 'Parsoid', "$IP/vendor/wikimedia/parsoid/extension.json" );
