@@ -4272,6 +4272,12 @@ $wgConf->settings += [
 		'default' => true,
 	],
 
+	// MirahezeRequests
+	'MirahezeRequestsDatabaseSuffix' => [
+		'default' => 'wiki',
+		'beta' => 'wikibeta',
+	],
+
 	// Maps
 	'egMapsDefaultService' => [
 		'ext-Maps' => 'leaflet',
