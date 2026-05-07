@@ -4870,6 +4870,9 @@ $wgConf->settings += [
 	'wgNoFollowLinks' => [
 		'default' => true,
 	],
+	'wgNoFollowDomainExceptions' => [
+		'default' => [],
+	],
 	'wgNoFollowNsExceptions' => [
 		'default' => [],
 	],
